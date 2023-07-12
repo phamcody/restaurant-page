@@ -45,13 +45,14 @@ export default function homepage() {
     cta.classList.add('cta');
 
     let description = document.createElement('div');
-    description.textContent = 'ramen made different. rahmee is your new goto ramen spot. made with delicate rich ingredients for rich flavor'
+    description.textContent = "Rahmee is your new goto ramen spot. Made with delicate rich ingredients for rich flavor. It's quite simply, ramen made different."
     description.classList.add('description');
 
     let btn = document.createElement('button');
     btn.classList.add('btn');
     btn.textContent = 'the menu';
 
+    mainContainer.appendChild(mainSubContainer);
     mainSubContainer.appendChild(cta);
     mainSubContainer.appendChild(description);
     mainSubContainer.appendChild(btn);
