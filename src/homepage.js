@@ -28,7 +28,7 @@ export default function homepage() {
     mainSubContainer.appendChild(btn);
 
     let ramenImage = document.createElement('img');
-    ramenImage.src = '../src/images/composition-noodles-bowl.jpg';
+    ramenImage.src = '../dist/images/composition-noodles-bowl.jpg';
     ramenImage.setAttribute('alt', 'ramen');
     ramenImage.classList.add('img');
 

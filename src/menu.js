@@ -17,7 +17,7 @@ export default function menu() {
     let titleContainer1 = document.createElement('div');
     titleContainer1.classList.add('titleContainers');
     let itemImg1 = document.createElement('img');
-    itemImg1.src = '../src/images/gourmet-pork-lunch-fresh-vegetable-soup-bowl-generated-by-ai.jpg';
+    itemImg1.src = '../dist/images/gourmet-pork-lunch-fresh-vegetable-soup-bowl-generated-by-ai.jpg';
     itemImg1.classList.add('itemImg');
     let itemTitle1 = document.createElement('div');
     let titlePriceContainer1 = document.createElement('div');
@@ -49,7 +49,7 @@ export default function menu() {
     let titleContainer2 = document.createElement('div');
     titleContainer2.classList.add('titleContainers');
     let itemImg2 = document.createElement('img');
-    itemImg2.src = '../src/images/korean-instant-noodle-tteokbokki-korean-spicy-sauce-ancient-food.jpg';
+    itemImg2.src = '../dist/images/korean-instant-noodle-tteokbokki-korean-spicy-sauce-ancient-food.jpg';
     itemImg2.classList.add('itemImg');
     let itemTitle2 = document.createElement('div');
     let titlePriceContainer2 = document.createElement('div');
@@ -78,7 +78,7 @@ export default function menu() {
     let titleContainer3 = document.createElement('div');
     titleContainer3.classList.add('titleContainers');
     let itemImg3 = document.createElement('img');
-    itemImg3.src = '../src/images/flat-lay-noodles-meal-arrangement.jpg';
+    itemImg3.src = '../dist/images/flat-lay-noodles-meal-arrangement.jpg';
     itemImg3.classList.add('itemImg');
     let itemTitle3 = document.createElement('div');
     let titlePriceContainer3 = document.createElement('div');
