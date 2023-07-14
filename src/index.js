@@ -3,25 +3,65 @@ import './styles.css';
 import contact from './contact.js';
 import menu from './menu.js';
 
-homepage();
+let contentContainer = document.querySelector('#content');
+
+let headerContainer = document.createElement('div');
+headerContainer.classList.add('header');
+contentContainer.appendChild(headerContainer);
+
+let rName = document.createElement('div');
+rName.classList.add('name');
+rName.textContent = 'rahmee';
+headerContainer.appendChild(rName);
+
+let tabsContainer = document.createElement('div');
+tabsContainer.classList.add('tabs');
+headerContainer.appendChild(tabsContainer);
+
+let home = document.createElement('a');
+home.classList.add('tab');
+home.classList.add('home');
+home.textContent = 'home';
+
+
+let menuT =  document.createElement('a');
+menuT.classList.add('tab');
+menuT.classList.add('menu');
+menuT.textContent = 'menu';
+
+let contactT = document.createElement('a');
+contactT.classList.add('tab');
+contactT.classList.add('contact');
+contactT.textContent = 'contact';
+
+tabsContainer.appendChild(home);
+tabsContainer.appendChild(menuT);
+tabsContainer.appendChild(contactT);
 
 const content = document.getElementById('content');
-const homeTab = document.querySelector('.home');
-const menuTab = document.querySelector('.menu');
-const contactTab = document.querySelector('.contact');
 
+homepage();
 
-homeTab.addEventListener('click', () => {
-    content.replaceChildren();
+home.addEventListener('click', () => {
+    let main = document.querySelector('.main');
+    let footer = document.querySelector('.footer');
+    contentContainer.removeChild(main);
+    contentContainer.removeChild(footer);
     homepage();
 });
 
-menuTab.addEventListener('click', () => {
-    content.replaceChildren();
+menuT.addEventListener('click', () => {
+    let main = document.querySelector('.main');
+    let footer = document.querySelector('.footer');
+    contentContainer.removeChild(main);
+    contentContainer.removeChild(footer);
     menu();
 });
 
-contactTab.addEventListener('click', () => {
-    content.replaceChildren();
+contactT.addEventListener('click', () => {
+    let main = document.querySelector('.main');
+    let footer = document.querySelector('.footer');
+    contentContainer.removeChild(main);
+    contentContainer.removeChild(footer);
     contact();
 });
