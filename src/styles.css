@@ -175,3 +175,54 @@ a:hover::after {
     font-weight: normal;
     font-style: normal;
 }
+
+.contactMain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-container,
+.right-Container {
+    display: grid;
+    justify-content: center;
+    height: 70vh;
+}
+
+.aboutHeader {
+    font-size: 4rem;
+    color: #c9a671;
+    text-align: center;
+    font-family: 'JelleeBold';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.left-container {
+    grid-template-rows: 1fr 4fr;
+    font-family: 'JelleeBold';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.leftDesc {
+    width: 500px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.rightDesc {
+    font-family: 'JelleeBold';
+    font-weight: normal;
+    font-style: normal;
+    width: 500px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.right-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+    justify-content: start;
+}
