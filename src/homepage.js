@@ -18,15 +18,18 @@ export default function homepage() {
 
     let home = document.createElement('a');
     home.classList.add('tab');
+    home.classList.add('home');
     home.textContent = 'home';
 
-
+    
     let menu =  document.createElement('a');
     menu.classList.add('tab');
+    menu.classList.add('menu');
     menu.textContent = 'menu';
 
     let contact = document.createElement('a');
     contact.classList.add('tab');
+    contact.classList.add('contact');
     contact.textContent = 'contact';
 
     tabsContainer.appendChild(home);

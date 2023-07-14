@@ -117,3 +117,61 @@ a::after {
 a:hover::after {
     width: 100%;
 }
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    gap: 15%;
+}
+
+.aboutContainer {
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.itemContainers {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+}
+
+.itemImg {
+    width: 155px;
+    height: 115px;
+    border-radius: 500px;
+    border: 5px solid #c9a671;
+}
+
+.titlePriceContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleContainers {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.price {
+    color: #c9a671;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.itemTitle {
+    font-family: 'JelleeBold';
+    font-weight: normal;
+    font-style: normal;
+    color: #c9a671;
+}
+
+.itemDesc {
+    font-family: 'JelleeBold';
+    font-weight: normal;
+    font-style: normal;
+}
