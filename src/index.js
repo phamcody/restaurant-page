@@ -65,3 +65,12 @@ contactT.addEventListener('click', () => {
     contentContainer.removeChild(footer);
     contact();
 });
+
+let menuButton = document.querySelector('.btn');
+menuButton.addEventListener('click', () => {
+    let main = document.querySelector('.main');
+    let footer = document.querySelector('.footer');
+    contentContainer.removeChild(main);
+    contentContainer.removeChild(footer);
+    menu();
+})

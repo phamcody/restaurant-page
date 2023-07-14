@@ -110,10 +110,36 @@ export default function menu() {
 
 
     let footer = document.createElement('div');
-    footer.textContent = 'created by phamcody @ github.com';
+    footer.classList.add('menuFooter');
     footer.classList.add('footer');
     content.appendChild(footer);
 
+    let credit1 = document.createElement('a');
+    credit1.textContent = 'Image By vecstock';
+    credit1.classList.add('menuFooter');
+    credit1.setAttribute('href', 'https://www.freepik.com/free-ai-image/gourmet-pork-lunch-fresh-vegetable-soup-bowl-generated-by-ai_41570236.htm#query=ramen&position=4&from_view=search&track=sph');
 
+    let credit2 = document.createElement('a');
+    credit2.textContent = 'Image By jcomp on Freepik';
+    credit2.setAttribute('href', 'https://www.freepik.com/free-photo/korean-instant-noodle-tteokbokki-korean-spicy-sauce-ancient-food_13902893.htm#query=spicy%20ramen&position=4&from_view=keyword&track=ais');
+
+    let credit3 = document.createElement('a');
+    credit3.textContent = 'Image By Freepik';
+    credit3.setAttribute('href', 'https://www.freepik.com/free-photo/flat-lay-noodles-meal-arrangement_11740902.htm#query=ramen%20veggie&position=2&from_view=search&track=ais');
+
+
+    footer.appendChild(credit1);
+    footer.appendChild(credit2);
+    footer.appendChild(credit3);
+    credit2.classList.add('menuFooter');
+    credit3.classList.add('menuFooter');
+
+    credit1.setAttribute('target', '_blank');
+    credit1.setAttribute('rel', 'noopener noreferrer');
+    credit2.setAttribute('target', '_blank');
+    credit2.setAttribute('rel', 'noopener noreferrer');
+    credit3.setAttribute('target', '_blank');
+    credit3.setAttribute('rel', 'noopener noreferrer');
 
 }
+

@@ -34,9 +34,13 @@ export default function homepage() {
 
     mainContainer.appendChild(ramenImage);
 
-    let footer = document.createElement('div');
-    footer.textContent = 'created by phamcody @ github.com';
+    let footer = document.createElement('a');
+    footer.textContent = 'Image By Freepik';
+    footer.setAttribute('href', 'https://www.freepik.com/free-photo/composition-noodles-bowl_11741072.htm#query=ramen%20veggie&position=1&from_view=search&track=ais');
     footer.classList.add('footer');
+    footer.classList.add('menuFooter');
 
     content.appendChild(footer);
+    footer.setAttribute('target', '_blank');
+    footer.setAttribute('rel', 'noopener noreferrer');
 }
