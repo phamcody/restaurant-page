@@ -1,6 +1,6 @@
-import rahmeeSpecial from '../dist/images/gourmet-pork-lunch-fresh-vegetable-soup-bowl-generated-by-ai.jpg';
-import spicyNoodle from '../dist/images/korean-instant-noodle-tteokbokki-korean-spicy-sauce-ancient-food.jpg';
-import veggieNoodle from '../dist/images/flat-lay-noodles-meal-arrangement.jpg';
+import rahmeeSpecial from 'images/gourmet-pork-lunch-fresh-vegetable-soup-bowl-generated-by-ai.jpg';
+import spicyNoodle from 'images/korean-instant-noodle-tteokbokki-korean-spicy-sauce-ancient-food.jpg';
+import veggieNoodle from 'images/flat-lay-noodles-meal-arrangement.jpg';
 
 export default function menu() {
 

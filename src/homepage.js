@@ -1,4 +1,4 @@
-import compositionNoodle from '../dist/images/composition-noodles-bowl.jpg';
+import compositionNoodle from 'images/composition-noodles-bowl.jpg';
 
 export default function homepage() {
     let content = document.getElementById('content');
