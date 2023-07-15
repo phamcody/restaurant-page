@@ -1,7 +1,3 @@
-import rahmeeSpecial from 'images/gourmet-pork-lunch-fresh-vegetable-soup-bowl-generated-by-ai.jpg';
-import spicyNoodle from 'images/korean-instant-noodle-tteokbokki-korean-spicy-sauce-ancient-food.jpg';
-import veggieNoodle from 'images/flat-lay-noodles-meal-arrangement.jpg';
-
 export default function menu() {
 
 
@@ -22,7 +18,7 @@ export default function menu() {
     let titleContainer1 = document.createElement('div');
     titleContainer1.classList.add('titleContainers');
     let itemImg1 = document.createElement('img');
-    itemImg1.src = rahmeeSpecial;
+    itemImg1.src = 'images/gourmet-pork-lunch-fresh-vegetable-soup-bowl-generated-by-ai.jpg';
     itemImg1.classList.add('itemImg');
     let itemTitle1 = document.createElement('div');
     let titlePriceContainer1 = document.createElement('div');
@@ -54,7 +50,7 @@ export default function menu() {
     let titleContainer2 = document.createElement('div');
     titleContainer2.classList.add('titleContainers');
     let itemImg2 = document.createElement('img');
-    itemImg2.src = spicyNoodle;
+    itemImg2.src = 'images/korean-instant-noodle-tteokbokki-korean-spicy-sauce-ancient-food.jpg';
     itemImg2.classList.add('itemImg');
     let itemTitle2 = document.createElement('div');
     let titlePriceContainer2 = document.createElement('div');
@@ -83,7 +79,7 @@ export default function menu() {
     let titleContainer3 = document.createElement('div');
     titleContainer3.classList.add('titleContainers');
     let itemImg3 = document.createElement('img');
-    itemImg3.src = veggieNoodle;
+    itemImg3.src = 'images/flat-lay-noodles-meal-arrangement.jpg';
     itemImg3.classList.add('itemImg');
     let itemTitle3 = document.createElement('div');
     let titlePriceContainer3 = document.createElement('div');
