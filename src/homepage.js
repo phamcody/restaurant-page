@@ -1,4 +1,4 @@
-
+import compositionNoodle from '../dist/images/composition-noodles-bowl.jpg';
 
 export default function homepage() {
     let content = document.getElementById('content');
@@ -28,7 +28,7 @@ export default function homepage() {
     mainSubContainer.appendChild(btn);
 
     let ramenImage = document.createElement('img');
-    ramenImage.src = '../dist/images/composition-noodles-bowl.jpg';
+    ramenImage.src = compositionNoodle;
     ramenImage.setAttribute('alt', 'ramen');
     ramenImage.classList.add('img');
 
